@@ -122,7 +122,7 @@ function Search({ setGadget, setLoading, setFound, gadgets }) {
   };
 
   const getData = async (value) => {
-    const data = await fetch("PENANSESCALZOZO.json");
+    const data = await fetch("/NEXUS/PENANSESCALZOZO.json");
     const res = await data.json();
 
     setData(res);
@@ -151,7 +151,7 @@ function Search({ setGadget, setLoading, setFound, gadgets }) {
   };
 
   const listsOfGadget = async () => {
-    let data = await fetch("PENANSESCALZOZO.json");
+    let data = await fetch("/NEXUS/PENANSESCALZOZO.json");
     let res = await data.json();
 
     return await res;
@@ -279,7 +279,7 @@ function Search({ setGadget, setLoading, setFound, gadgets }) {
   };
 
   const display = async () => {
-    const data = await fetch("PENANSESCALZOZO.json");
+    const data = await fetch("/NEXUS/PENANSESCALZOZO.json");
     const res = await data.json();
 
     console.log(data);
