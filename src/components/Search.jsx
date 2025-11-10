@@ -122,7 +122,7 @@ function Search({ setGadget, setLoading, setFound, gadgets }) {
   };
 
   const getData = async (value) => {
-    const data = await fetch("../../PENANSESCALZOZO.json");
+    const data = await fetch(`PENANSESCALZOZO.json`);
 
     const res = await data.json();
 
@@ -280,7 +280,7 @@ function Search({ setGadget, setLoading, setFound, gadgets }) {
   };
 
   const display = async () => {
-    const data = await fetch("../../PENANSESCALZOZO.json");
+    const data = await fetch(`PENANSESCALZOZO.json`);
 
     const res = await data.json();
 
