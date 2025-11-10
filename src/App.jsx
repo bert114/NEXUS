@@ -10,7 +10,7 @@ import CheckoutPage1 from "./pages/CheckoutPage1";
 function App() {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename="/NEXUS">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
