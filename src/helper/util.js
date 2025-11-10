@@ -42,7 +42,7 @@ export let test = {
 };
 
 export const getData = async () => {
-  const data = await fetch("/PENANSESCALZOZO.json");
+  const data = await fetch("PENANSESCALZOZO.json");
   const res = await data.json();
 
   listOfGadget = res;
