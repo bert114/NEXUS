@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$bg-dark: oklch(0.92 0 264);
+$bg: oklch(0.96 0 264);
+$bg-light: oklch(1 0 264);
+$shadow-s: inset 0 1px 2px #ffffff30, 0 1px 2px #00000030, 0 2px 4px #00000015;
+$shadow-m: inset 0 1px 2px #ffffff50, 0 2px 4px #00000030, 0 4px 8px #00000015;
+$shadow-l: inset 0 1px 2px #ffffff70, 0 4px 6px #00000030, 0 6px 10px #00000015;
+$text: oklch(0.15 0 264);
+$text300: oklch(0.7 0 264);
+
+$icon-main-clr: #ffffff;
+
+$clr-primary: #73c7e3;
+$clr-primary: #2e4a70;
+$clr-primary600: #5087b4;
+
+$clr-secondary: $bg;
+$err: #f44336;
+
+:root {
+  --text300: rgb(158, 158, 158);
+}
+
+$space-xxs: 4px; /* Very tight spacing */
+$space-xs: 8px; /* Extra small spacing */
+$space-sm: 12px; /* Small spacing */
+$space-md: 16px; /* Medium / default spacing */
+$space-lg: 24px; /* Large spacing */
+$space-xl: 32px; /* Extra large spacing */
+$space-xxl: 48px; /* Section spacing */
+$space-xxxl: 64px; /* Major section spacing */
+$space-xxxll: 100px; /* Major section spacing */
+
+$fs-t: 24px;
+$fs-sub-t: 16px;
+$fs-p: 14px;
+$fs-small: 12px;
+
+:root {
+  --clr-n: rgb(177, 176, 176);
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}

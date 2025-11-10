@@ -1,0 +1,785 @@
+[
+  {
+    "id": "2",
+    "name": "MacBook Pro 14-inch",
+    "brand": "Apple",
+    "price": 1999.99,
+    "rating": 4.9,
+    "reviews": 5234,
+    "category": "Laptops",
+    "description": "Supercharged by M3 Pro or M3 Max, MacBook Pro takes its power and efficiency further than ever. It delivers exceptional performance whether it's plugged in or using the battery, and stunning battery life.",
+    "sku": "APL-MBP14-M3",
+    "modelNumber": "MPHF3LL/A",
+    "releaseDate": "2023-11-07",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": false,
+    "availableColors": ["Space Black", "Silver"],
+    "colorImages": {
+      "Space Black": "https://plus.unsplash.com/premium_photo-1754404025529-8961df8c7380?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWFjQm9vayUyMFBybyUyMDE0LWluY2glMjBTcGFjZSUyMEJsYWNrfGVufDB8fDB8fHww&auto=format&fit=crop&q=60&w=600",
+      "Silver": "https://plus.unsplash.com/premium_photo-1681302427934-0a3002e398c8?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8TWFjQm9vayUyMFBybyUyMDE0LWluY2glMjBTaWx2ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&q=60&w=600"
+    },
+    "specs": {
+      "Display": "14.2\" Liquid Retina XDR",
+      "Chip": "Apple M3 Pro",
+      "Memory": "18GB Unified",
+      "Storage": "512GB SSD"
+    }
+  },
+  {
+    "id": "3",
+    "name": "AirPods Pro (2nd Gen)",
+    "brand": "Apple",
+    "price": 249.99,
+    "originalPrice": 279.99,
+    "rating": 4.7,
+    "reviews": 2891,
+    "category": "Audio",
+    "description": "AirPods Pro feature up to 2x more Active Noise Cancellation, Adaptive Transparency, and Personalized Spatial Audio. The innovative H2 chip powers smarter noise cancellation and immersive sound.",
+    "sku": "APL-APP2-USB",
+    "modelNumber": "MTJV3AM/A",
+    "releaseDate": "2023-09-23",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["White"],
+    "colorImages": {
+      "White": "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=400&q=80"
+    },
+    "specs": {
+      "Noise Cancellation": "Active Noise Cancellation",
+      "Battery Life": "Up to 6 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Water Resistance": "IPX4"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Samsung Galaxy S24 Ultra",
+    "brand": "Samsung",
+    "price": 1299.99,
+    "rating": 4.6,
+    "reviews": 4102,
+    "category": "Smartphones",
+    "description": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm display. It's an absolute marvel of design. The legacy continues with built-in S Pen, fast charging, and pro-level camera with 200MP sensor.",
+    "sku": "SAM-S24U-256",
+    "modelNumber": "SM-S928UZKEXAA",
+    "releaseDate": "2024-01-17",
+    "warranty": "1 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": [
+      "Titanium Black",
+      "Titanium Gray",
+      "Titanium Violet",
+      "Titanium Yellow"
+    ],
+    "colorImages": {
+      "Titanium Black": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=400&q=80",
+      "Titanium Gray": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80",
+      "Titanium Violet": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&q=80",
+      "Titanium Yellow": "https://images.unsplash.com/photo-1585060544812-6b2d7e092f4e?w=400&q=80"
+    },
+    "specs": {
+      "Display": "6.8\" Dynamic AMOLED 2X",
+      "Processor": "Snapdragon 8 Gen 3",
+      "Storage": "256GB",
+      "Camera": "200MP Main, 50MP Periscope Telephoto"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Sony WH-1000XM5",
+    "brand": "Sony",
+    "price": 398.99,
+    "rating": 4.9,
+    "reviews": 6543,
+    "category": "Audio",
+    "description": "Industry-leading noise cancellation with new Auto NC Optimizer and eight microphones for exceptional call quality. Premium sound quality with LDAC and DSEE Extreme, plus up to 30-hour battery life.",
+    "sku": "SNY-WH1000XM5",
+    "modelNumber": "WH1000XM5/B",
+    "releaseDate": "2022-05-12",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "Silver"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&q=80",
+      "Silver": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&q=80"
+    },
+    "specs": {
+      "Noise Cancellation": "Industry-leading ANC",
+      "Battery Life": "Up to 30 hours",
+      "Connectivity": "Bluetooth 5.2, LDAC",
+      "Weight": "250g"
+    }
+  },
+  {
+    "id": "6",
+    "name": "iPad Pro 12.9-inch",
+    "brand": "Apple",
+    "price": 1099.99,
+    "originalPrice": 1199.99,
+    "rating": 4.8,
+    "reviews": 7821,
+    "category": "Tablets",
+    "description": "The ultimate iPad experience with the most advanced technology. M2 chip delivers powerful performance, pro cameras capture 4K video, and the Liquid Retina XDR display is the most advanced mobile display.",
+    "sku": "APL-IPADP12-M2",
+    "modelNumber": "MNXQ3LL/A",
+    "releaseDate": "2022-10-18",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Space Gray", "Silver"],
+    "colorImages": {
+      "Space Gray": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=400&q=80",
+      "Silver": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400&q=80"
+    },
+    "specs": {
+      "Display": "12.9\" Liquid Retina XDR",
+      "Chip": "Apple M2",
+      "Storage": "256GB",
+      "Camera": "12MP Wide, 10MP Ultra Wide"
+    }
+  },
+  {
+    "id": "7",
+    "name": "Dell XPS 15",
+    "brand": "Dell",
+    "price": 1799.99,
+    "rating": 4.5,
+    "reviews": 3654,
+    "category": "Laptops",
+    "description": "Power through your most demanding projects with the Dell XPS 15. Featuring 13th Gen Intel Core processors, NVIDIA GeForce RTX graphics, and a stunning InfinityEdge display for immersive viewing.",
+    "sku": "DEL-XPS15-I7",
+    "modelNumber": "XPS9530-7742SLV-PUS",
+    "releaseDate": "2023-05-15",
+    "warranty": "1 Year Premium Support",
+    "inStock": true,
+    "availableColors": ["Platinum Silver", "Graphite"],
+    "colorImages": {
+      "Platinum Silver": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=400&q=80",
+      "Graphite": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400&q=80"
+    },
+    "specs": {
+      "Display": "15.6\" FHD+ InfinityEdge",
+      "Processor": "Intel Core i7-13700H",
+      "Memory": "16GB DDR5",
+      "Storage": "512GB SSD"
+    }
+  },
+  {
+    "id": "8",
+    "name": "Apple Watch Series 9",
+    "brand": "Apple",
+    "price": 429.99,
+    "rating": 4.7,
+    "reviews": 4987,
+    "category": "Wearables",
+    "description": "Your essential companion for a healthy life is now even more powerful. The S9 chip enables a magical new way to use your watch without touching the screen with the all‑new Double Tap gesture.",
+    "sku": "APL-AW9-45MM",
+    "modelNumber": "MRX03LL/A",
+    "releaseDate": "2023-09-22",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": [
+      "Midnight",
+      "Starlight",
+      "Silver",
+      "Pink",
+      "Product Red"
+    ],
+    "colorImages": {
+      "Midnight": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=400&q=80",
+      "Starlight": "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=400&q=80",
+      "Silver": "https://images.unsplash.com/photo-1523475496153-3d6cc0f0bf19?w=400&q=80",
+      "Pink": "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?w=400&q=80",
+      "Product Red": "https://images.unsplash.com/photo-1546868871-0674c59e9d8e?w=400&q=80"
+    },
+    "specs": {
+      "Display": "45mm Always-On Retina",
+      "Chip": "S9 SiP",
+      "Battery Life": "Up to 18 hours",
+      "Water Resistance": "50 meters"
+    }
+  },
+  {
+    "id": "9",
+    "name": "Samsung Galaxy Tab S9",
+    "brand": "Samsung",
+    "price": 799.99,
+    "originalPrice": 899.99,
+    "rating": 4.6,
+    "reviews": 5421,
+    "category": "Tablets",
+    "description": "An epic viewing experience with Dynamic AMOLED 2X display. Effortless creativity with S Pen included. Performance that keeps up with Snapdragon 8 Gen 2 processor and IP68 water resistance.",
+    "sku": "SAM-TABS9-128",
+    "modelNumber": "SM-X710NZAAXAR",
+    "releaseDate": "2023-08-11",
+    "warranty": "1 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": ["Graphite", "Beige", "Mint"],
+    "colorImages": {
+      "Graphite": "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=400&q=80",
+      "Beige": "https://images.unsplash.com/photo-1585790050230-5dd28404f05a?w=400&q=80",
+      "Mint": "https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=400&q=80"
+    },
+    "specs": {
+      "Display": "11\" Dynamic AMOLED 2X",
+      "Processor": "Snapdragon 8 Gen 2",
+      "Storage": "128GB",
+      "Water Resistance": "IP68"
+    }
+  },
+  {
+    "id": "10",
+    "name": "Google Pixel 8 Pro",
+    "brand": "Google",
+    "price": 999.99,
+    "rating": 4.7,
+    "reviews": 3298,
+    "category": "Smartphones",
+    "description": "The most powerful Pixel yet. Google Tensor G3 chip unlocks powerful AI capabilities. Pro camera with advanced features including Night Sight and Magic Eraser. Pure Android experience.",
+    "sku": "GOG-PIX8P-256",
+    "modelNumber": "GA04834-US",
+    "releaseDate": "2023-10-04",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Obsidian", "Porcelain", "Bay"],
+    "colorImages": {
+      "Obsidian": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=400&q=80",
+      "Porcelain": "https://images.unsplash.com/photo-1598618443855-232ee0f819f2?w=400&q=80",
+      "Bay": "https://images.unsplash.com/photo-1605236453806-6ff36851218e?w=400&q=80"
+    },
+    "specs": {
+      "Display": "6.7\" LTPO OLED",
+      "Chip": "Google Tensor G3",
+      "Storage": "256GB",
+      "Camera": "50MP Wide, 48MP Ultrawide, 48MP Telephoto"
+    }
+  },
+  {
+    "id": "11",
+    "name": "Bose QuietComfort Ultra",
+    "brand": "Bose",
+    "price": 429.99,
+    "rating": 4.8,
+    "reviews": 8976,
+    "category": "Audio",
+    "description": "World-class noise cancellation meets immersive audio. CustomTune technology automatically adjusts to your ears, delivering breakthrough spatialized audio for music and movies.",
+    "sku": "BOS-QCULT-BLK",
+    "modelNumber": "882826-0100",
+    "releaseDate": "2023-09-14",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "White Smoke", "Sandstone"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=400&q=80",
+      "White Smoke": "https://images.unsplash.com/photo-1545127398-14699f92334b?w=400&q=80",
+      "Sandstone": "https://images.unsplash.com/photo-1577174881658-0f30157f72ea?w=400&q=80"
+    },
+    "specs": {
+      "Noise Cancellation": "World-class ANC",
+      "Battery Life": "Up to 24 hours",
+      "Connectivity": "Bluetooth 5.3",
+      "Weight": "254g"
+    }
+  },
+  {
+    "id": "12",
+    "name": "Microsoft Surface Pro 9",
+    "brand": "Microsoft",
+    "price": 1299.99,
+    "rating": 4.5,
+    "reviews": 2876,
+    "category": "Laptops",
+    "description": "The tablet that can replace your laptop. Featuring a vibrant 13-inch touchscreen, choice of Intel or ARM processor, and all-day battery life. Perfect for work and creativity on the go.",
+    "sku": "MSF-SP9-I5",
+    "modelNumber": "QEZ-00001",
+    "releaseDate": "2022-10-25",
+    "warranty": "1 Year Limited Hardware Warranty",
+    "inStock": true,
+    "availableColors": ["Platinum", "Graphite", "Sapphire", "Forest"],
+    "colorImages": {
+      "Platinum": "https://images.unsplash.com/photo-1587614382346-4ec70e388b28?w=400&q=80",
+      "Graphite": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=400&q=80",
+      "Sapphire": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=400&q=80",
+      "Forest": "https://images.unsplash.com/photo-1593642702821-c8da6771f0c6?w=400&q=80"
+    },
+    "specs": {
+      "Display": "13\" PixelSense Flow",
+      "Processor": "Intel Core i5-1235U",
+      "Memory": "8GB LPDDR5",
+      "Storage": "256GB SSD"
+    }
+  },
+  {
+    "id": "13",
+    "name": "PlayStation 5",
+    "brand": "Sony",
+    "price": 499.99,
+    "rating": 4.9,
+    "reviews": 12543,
+    "category": "Gaming",
+    "description": "Experience lightning-fast loading with an ultra-high speed SSD, deeper immersion with support for haptic feedback, adaptive triggers and 3D Audio, and an all-new generation of incredible PlayStation games.",
+    "sku": "SNY-PS5-DISC",
+    "modelNumber": "CFI-1215A",
+    "releaseDate": "2020-11-12",
+    "warranty": "1 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": ["White", "Midnight Black", "Cosmic Red"],
+    "colorImages": {
+      "White": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?w=400&q=80",
+      "Midnight Black": "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=400&q=80",
+      "Cosmic Red": "https://images.unsplash.com/photo-1606318313423-b66c3c1f6c6d?w=400&q=80"
+    },
+    "specs": {
+      "CPU": "AMD Zen 2, 8 Cores",
+      "GPU": "10.28 TFLOPs, AMD RDNA 2",
+      "Storage": "825GB SSD",
+      "Resolution": "Up to 8K"
+    }
+  },
+  {
+    "id": "14",
+    "name": "Xbox Series X",
+    "brand": "Microsoft",
+    "price": 499.99,
+    "rating": 4.8,
+    "reviews": 9876,
+    "category": "Gaming",
+    "description": "The fastest, most powerful Xbox ever. Explore rich new worlds with 12 teraflops of raw graphic processing power. Enjoy 4K gaming at up to 120 frames per second on this powerhouse console.",
+    "sku": "MSF-XBSX-1TB",
+    "modelNumber": "RRT-00001",
+    "releaseDate": "2020-11-10",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1621259182978-fbf93132d53d?w=400&q=80"
+    },
+    "specs": {
+      "CPU": "AMD Zen 2, 8 Cores",
+      "GPU": "12 TFLOPs, AMD RDNA 2",
+      "Storage": "1TB SSD",
+      "Resolution": "Up to 8K"
+    }
+  },
+  {
+    "id": "15",
+    "name": "LG UltraGear 27\" Gaming Monitor",
+    "brand": "LG",
+    "price": 399.99,
+    "originalPrice": 499.99,
+    "rating": 4.7,
+    "reviews": 5432,
+    "category": "Monitors",
+    "description": "Dominate the competition with the blazing-fast 1ms response time and 144Hz refresh rate. NVIDIA G-SYNC compatibility ensures smooth, tear-free gaming. IPS display delivers stunning color accuracy.",
+    "sku": "LG-27GL83A",
+    "modelNumber": "27GL83A-B",
+    "releaseDate": "2023-03-15",
+    "warranty": "3 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": ["Black"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&q=80"
+    },
+    "specs": {
+      "Screen Size": "27 inches",
+      "Resolution": "2560 x 1440 (QHD)",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms"
+    }
+  },
+  {
+    "id": "16",
+    "name": "Logitech MX Master 3S",
+    "brand": "Logitech",
+    "price": 99.99,
+    "rating": 4.8,
+    "reviews": 7654,
+    "category": "Accessories",
+    "description": "The ultimate mouse for productivity. Magnetic scrolling, customizable buttons, and multi-device connectivity. Work seamlessly across multiple computers with Flow technology. Ergonomic design for all-day comfort.",
+    "sku": "LOG-MXMS3-BLK",
+    "modelNumber": "910-006556",
+    "releaseDate": "2022-05-17",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "Pale Gray"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1527814050087-3793815479db?w=400&q=80",
+      "Pale Gray": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=400&q=80"
+    },
+    "specs": {
+      "Connectivity": "Bluetooth, USB-C",
+      "Battery Life": "Up to 70 days",
+      "DPI": "8000",
+      "Buttons": "7 customizable"
+    }
+  },
+  {
+    "id": "17",
+    "name": "Keychron K8 Pro Mechanical Keyboard",
+    "brand": "Keychron",
+    "price": 129.99,
+    "rating": 4.6,
+    "reviews": 3421,
+    "category": "Accessories",
+    "description": "Wireless mechanical keyboard with hot-swappable switches, RGB backlight, and Mac/Windows compatibility. Premium aluminum frame and gasket mount design for superior typing experience.",
+    "sku": "KEY-K8PRO-RGB",
+    "modelNumber": "K8P-A1",
+    "releaseDate": "2023-01-20",
+    "warranty": "1 Year Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "White", "Carbon Black"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1595225476474-87563907a212?w=400&q=80",
+      "White": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=400&q=80",
+      "Carbon Black": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?w=400&q=80"
+    },
+    "specs": {
+      "Layout": "TKL (87 keys)",
+      "Connectivity": "Bluetooth 5.1, USB-C",
+      "Battery": "4000mAh",
+      "Hot-Swappable": "Yes"
+    }
+  },
+  {
+    "id": "18",
+    "name": "Samsung 4K Smart Monitor M8",
+    "brand": "Samsung",
+    "price": 699.99,
+    "rating": 4.5,
+    "reviews": 4231,
+    "category": "Monitors",
+    "description": "Do-it-all screen that works and plays just as hard as you do. Stream your favorite content, work on documents, or even make video calls, all without connecting to a PC. Built-in apps and SlimFit camera included.",
+    "sku": "SAM-M8-32",
+    "modelNumber": "LS32BM801UNXZA",
+    "releaseDate": "2023-04-10",
+    "warranty": "1 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": ["White", "Pink", "Blue", "Green"],
+    "colorImages": {
+      "White": "https://images.unsplash.com/photo-1585792180666-f7347c490ee2?w=400&q=80",
+      "Pink": "https://images.unsplash.com/photo-1616499452844-423c2c4e8228?w=400&q=80",
+      "Blue": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?w=400&q=80",
+      "Green": "https://images.unsplash.com/photo-1625948515291-69613efd103f?w=400&q=80"
+    },
+    "specs": {
+      "Screen Size": "32 inches",
+      "Resolution": "3840 x 2160 (4K UHD)",
+      "Smart Features": "Tizen OS, AirPlay 2",
+      "Ports": "USB-C, HDMI, USB"
+    }
+  },
+  {
+    "id": "19",
+    "name": "DJI Mini 3 Pro Drone",
+    "brand": "DJI",
+    "price": 759.99,
+    "originalPrice": 849.99,
+    "rating": 4.9,
+    "reviews": 6543,
+    "category": "Cameras",
+    "description": "Ultra-lightweight and foldable drone with 4K HDR video, true vertical shooting, and extended battery life. Advanced obstacle sensing in three directions keeps your drone safe while you capture stunning aerial footage.",
+    "sku": "DJI-MINI3PRO",
+    "modelNumber": "CP.MA.00000509.01",
+    "releaseDate": "2023-02-14",
+    "warranty": "1 Year Warranty",
+    "inStock": true,
+    "availableColors": ["Gray"],
+    "colorImages": {
+      "Gray": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?w=400&q=80"
+    },
+    "specs": {
+      "Weight": "249g",
+      "Camera": "1/1.3\" CMOS, 48MP",
+      "Video": "4K/60fps HDR",
+      "Flight Time": "Up to 34 minutes"
+    }
+  },
+  {
+    "id": "20",
+    "name": "GoPro HERO12 Black",
+    "brand": "GoPro",
+    "price": 399.99,
+    "rating": 4.7,
+    "reviews": 8765,
+    "category": "Cameras",
+    "description": "Revolutionary HyperSmooth 6.0 video stabilization creates impossibly smooth footage. Waterproof to 33ft, perfect for any adventure. 5.3K video, 27MP photos, and improved battery life.",
+    "sku": "GPR-HERO12BLK",
+    "modelNumber": "CHDHX-121-RW",
+    "releaseDate": "2023-09-13",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1606567595334-d39972c85dbe?w=400&q=80"
+    },
+    "specs": {
+      "Video": "5.3K60 + 4K120",
+      "Photo": "27MP",
+      "Stabilization": "HyperSmooth 6.0",
+      "Waterproof": "33ft (10m)"
+    }
+  },
+  {
+    "id": "21",
+    "name": "Sonos Era 300",
+    "brand": "Sonos",
+    "price": 449.99,
+    "rating": 4.8,
+    "reviews": 3210,
+    "category": "Smart Home",
+    "description": "Next-generation smart speaker with spatial audio. Six optimally positioned drivers create an immersive listening experience. Works with Dolby Atmos for truly cinematic sound at home.",
+    "sku": "SON-ERA300-BLK",
+    "modelNumber": "ERA300US1BLK",
+    "releaseDate": "2023-03-28",
+    "warranty": "1 Year Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "White"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=400&q=80",
+      "White": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=400&q=80"
+    },
+    "specs": {
+      "Drivers": "6 speakers",
+      "Connectivity": "WiFi, Bluetooth 5.0",
+      "Voice Control": "Alexa, Sonos Voice",
+      "Spatial Audio": "Dolby Atmos"
+    }
+  },
+  {
+    "id": "22",
+    "name": "Amazon Echo Show 15",
+    "brand": "Amazon",
+    "price": 279.99,
+    "originalPrice": 349.99,
+    "rating": 4.4,
+    "reviews": 5432,
+    "category": "Smart Home",
+    "description": "Smart display with a 15.6\" Full HD screen. Alexa helps you manage your calendar, create shopping lists, watch shows and movies, and control your smart home. Wall-mountable design saves counter space.",
+    "sku": "AMZ-ES15-WHT",
+    "modelNumber": "B09N6HKGMH",
+    "releaseDate": "2022-11-15",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["White", "Black"],
+    "colorImages": {
+      "White": "https://images.unsplash.com/photo-1518444065439-e933c06ce9cd?w=400&q=80",
+      "Black": "https://images.unsplash.com/photo-1589492477829-5e65395b66cc?w=400&q=80"
+    },
+    "specs": {
+      "Display": "15.6\" Full HD (1080p)",
+      "Camera": "5MP with privacy shutter",
+      "Storage": "16GB",
+      "Voice Assistant": "Alexa"
+    }
+  },
+  {
+    "id": "23",
+    "name": "Ring Video Doorbell Pro 2",
+    "brand": "Ring",
+    "price": 249.99,
+    "rating": 4.6,
+    "reviews": 9876,
+    "category": "Smart Home",
+    "description": "Advanced home security with 1536p HD+ video, 3D Motion Detection, and built-in Alexa Greetings. See, hear, and speak to visitors from anywhere. Hardwired for continuous power and premium features.",
+    "sku": "RNG-VDBP2",
+    "modelNumber": "8VR1S7-0EN0",
+    "releaseDate": "2023-06-20",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Satin Nickel"],
+    "colorImages": {
+      "Satin Nickel": "https://images.unsplash.com/photo-1558002038-1055907df827?w=400&q=80"
+    },
+    "specs": {
+      "Video": "1536p HD+",
+      "Field of View": "150° horizontal, 150° vertical",
+      "Motion Detection": "3D Motion Detection",
+      "Two-Way Talk": "Yes with noise cancellation"
+    }
+  },
+  {
+    "id": "24",
+    "name": "Samsung T7 Portable SSD 2TB",
+    "brand": "Samsung",
+    "price": 179.99,
+    "originalPrice": 229.99,
+    "rating": 4.9,
+    "reviews": 11234,
+    "category": "Storage",
+    "description": "Transfer massive files in seconds with the incredible speed of USB 3.2 Gen 2. Fast, durable, and compact external storage with password protection and AES 256-bit hardware encryption.",
+    "sku": "SAM-T7-2TB-BLU",
+    "modelNumber": "MU-PC2T0H/AM",
+    "releaseDate": "2022-08-15",
+    "warranty": "3 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Blue", "Gray", "Red"],
+    "colorImages": {
+      "Blue": "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=400&q=80",
+      "Gray": "https://images.unsplash.com/photo-1531492746076-161ca9bcad58?w=400&q=80",
+      "Red": "https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=400&q=80"
+    },
+    "specs": {
+      "Capacity": "2TB",
+      "Read Speed": "Up to 1,050 MB/s",
+      "Write Speed": "Up to 1,000 MB/s",
+      "Interface": "USB 3.2 Gen 2"
+    }
+  },
+  {
+    "id": "25",
+    "name": "Anker 737 Power Bank",
+    "brand": "Anker",
+    "price": 149.99,
+    "rating": 4.7,
+    "reviews": 6543,
+    "category": "Accessories",
+    "description": "Massive 24,000mAh capacity charges your laptop, tablet, and phone multiple times. 140W USB-C output for fast charging. Smart digital display shows real-time charging status and battery percentage.",
+    "sku": "ANK-A1289011",
+    "modelNumber": "A1289",
+    "releaseDate": "2023-05-10",
+    "warranty": "18 Month Warranty",
+    "inStock": true,
+    "availableColors": ["Black"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=400&q=80"
+    },
+    "specs": {
+      "Capacity": "24,000mAh (86.4Wh)",
+      "Output": "140W USB-C PD 3.1",
+      "Ports": "2x USB-C, 1x USB-A",
+      "Recharge Time": "1.4 hours"
+    }
+  },
+  {
+    "id": "26",
+    "name": "Meta Quest 3",
+    "brand": "Meta",
+    "price": 499.99,
+    "rating": 4.8,
+    "reviews": 7654,
+    "category": "VR & AR",
+    "description": "Next generation of VR and mixed reality. 40% thinner than Quest 2 with higher resolution displays. Experience breakthrough mixed reality with full-color passthrough and realistic virtual experiences.",
+    "sku": "MTA-QUEST3-128",
+    "modelNumber": "899-00582-01",
+    "releaseDate": "2023-10-10",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["White"],
+    "colorImages": {
+      "White": "https://images.unsplash.com/photo-1622979135225-d2ba269cf1ac?w=400&q=80"
+    },
+    "specs": {
+      "Display": "2064 x 2208 per eye",
+      "Processor": "Snapdragon XR2 Gen 2",
+      "Storage": "128GB",
+      "Controllers": "Touch Plus Controllers"
+    }
+  },
+  {
+    "id": "27",
+    "name": "Razer BlackShark V2 Pro",
+    "brand": "Razer",
+    "price": 179.99,
+    "originalPrice": 199.99,
+    "rating": 4.6,
+    "reviews": 5432,
+    "category": "Gaming",
+    "description": "Esports gaming headset with Razer HyperSpeed Wireless technology. THX Spatial Audio provides accurate positional sound. Ultra-soft memory foam ear cushions and lightweight design for marathon gaming sessions.",
+    "sku": "RAZ-BSV2PRO",
+    "modelNumber": "RZ04-03220100-R3U1",
+    "releaseDate": "2023-01-25",
+    "warranty": "2 Year Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "White"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1599669454699-248893623440?w=400&q=80",
+      "White": "https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?w=400&q=80"
+    },
+    "specs": {
+      "Connectivity": "2.4GHz Wireless",
+      "Battery Life": "Up to 70 hours",
+      "Drivers": "50mm Titanium-coated",
+      "Microphone": "Detachable HyperClear"
+    }
+  },
+  {
+    "id": "28",
+    "name": "Fitbit Charge 6",
+    "brand": "Fitbit",
+    "price": 159.99,
+    "rating": 4.5,
+    "reviews": 8765,
+    "category": "Wearables",
+    "description": "Advanced fitness tracker with built-in GPS, heart rate monitoring, and 40+ exercise modes. Track your sleep quality, stress levels, and receive personalized insights. Up to 7 days of battery life.",
+    "sku": "FIT-CHRG6-BLK",
+    "modelNumber": "FB421BKBK",
+    "releaseDate": "2023-09-28",
+    "warranty": "1 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Black", "Coral", "Obsidian"],
+    "colorImages": {
+      "Black": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=400&q=80",
+      "Coral": "https://images.unsplash.com/photo-1557438159-51eec7a6c9e8?w=400&q=80",
+      "Obsidian": "https://images.unsplash.com/photo-1544117519-31a4b719223d?w=400&q=80"
+    },
+    "specs": {
+      "Display": "1.04\" AMOLED",
+      "Battery Life": "Up to 7 days",
+      "Water Resistance": "50 meters",
+      "Sensors": "Heart rate, GPS, SpO2"
+    }
+  },
+  {
+    "id": "29",
+    "name": "Nest Learning Thermostat",
+    "brand": "Google Nest",
+    "price": 249.99,
+    "rating": 4.7,
+    "reviews": 9876,
+    "category": "Smart Home",
+    "description": "Smart thermostat that learns your schedule and programs itself. Auto-Schedule learns what temperature you like and builds a schedule for your home. Save energy with Home/Away Assist.",
+    "sku": "NST-LEARN3-SS",
+    "modelNumber": "T3007ES",
+    "releaseDate": "2022-10-20",
+    "warranty": "2 Year Limited Warranty",
+    "inStock": true,
+    "availableColors": ["Stainless Steel", "White", "Black", "Copper"],
+    "colorImages": {
+      "Stainless Steel": "https://images.unsplash.com/photo-1545259741-2ea3ebf61fa3?w=400&q=80",
+      "White": "https://images.unsplash.com/photo-1558089687-f282ffcbc126?w=400&q=80",
+      "Black": "https://images.unsplash.com/photo-1585128792020-803d29415281?w=400&q=80",
+      "Copper": "https://images.unsplash.com/photo-1601972599720-2dd48f6c5068?w=400&q=80"
+    },
+    "specs": {
+      "Display": "2.08\" diameter LCD (480 x 480)",
+      "Compatibility": "Works with 95% of systems",
+      "Connectivity": "WiFi 802.11 b/g/n",
+      "Sensors": "Temperature, humidity, motion"
+    }
+  },
+  {
+    "id": "30",
+    "name": "OnePlus 11",
+    "brand": "OnePlus",
+    "price": 699.99,
+    "rating": 4.6,
+    "reviews": 4321,
+    "category": "Smartphones",
+    "description": "Flagship performance with Snapdragon 8 Gen 2 and 100W SUPERVOOC fast charging. Hasselblad camera system delivers stunning photos. 120Hz fluid AMOLED display for smooth scrolling and gaming.",
+    "sku": "OPL-OP11-256",
+    "modelNumber": "CPH2449",
+    "releaseDate": "2023-02-07",
+    "warranty": "1 Year Manufacturer Warranty",
+    "inStock": true,
+    "availableColors": ["Titan Black", "Eternal Green"],
+    "colorImages": {
+      "Titan Black": "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&q=80",
+      "Eternal Green": "https://images.unsplash.com/photo-1580910051074-3eb694886505?w=400&q=80"
+    },
+    "specs": {
+      "Display": "6.7\" AMOLED 120Hz",
+      "Processor": "Snapdragon 8 Gen 2",
+      "Storage": "256GB",
+      "Camera": "50MP main, 48MP ultrawide, 32MP telephoto"
+    }
+  }
+]

@@ -1,0 +1,68 @@
+@use "./util/config.scss" as *;
+
+/* From Uiverse.io by andrew-demchenk0 */
+.fixed {
+  position: fixed;
+  bottom: 1rem;
+  width: 300px;
+  z-index: 10000;
+  right: 1.7rem;
+  height: 50px;
+  visibility: hidden;
+
+  .toastNew {
+    --bg: #fce8db;
+    --clr200: #ef665b;
+    --clr400: #71192f;
+    width: 320px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background: var(--bg);
+    border-radius: 8px;
+    border: 1px solid var(--clr200);
+    box-shadow: 0px 0px 5px -3px #111;
+    transition: 0.6s;
+    transform: translateX(24rem);
+
+    &__icon path {
+      color: var(--clr200);
+    }
+
+    &__title {
+      font-weight: 500;
+      font-size: 14px;
+      color: var(--clr400);
+    }
+
+    &__close {
+      cursor: pointer;
+      margin-left: auto;
+    }
+
+    &__close path {
+      fill: var(--clr400);
+    }
+
+    .flex {
+      display: flex;
+      align-items: center;
+    }
+
+    .flex:has(.toastNew__icon) {
+      gap: $space-xs;
+    }
+  }
+
+  .toastNew.success {
+    --bg: #fce8db;
+    --clr200: green;
+    --clr400: green;
+  }
+
+  .toastNew.show {
+    transform: translateX(1px);
+  }
+}
