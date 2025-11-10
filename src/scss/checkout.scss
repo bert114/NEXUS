@@ -824,11 +824,11 @@ $clr-success: #4caf4f;
 
 .summary-container {
   display: flex;
-  overflow-x: scroll;
+  overflow-x: hidden;
   gap: $space-xs;
   padding-bottom: 0.5rem;
   margin-top: $space-xl;
-  width: 400px;
+  width: 200px;
   height: 100px;
 
   * {
@@ -965,7 +965,7 @@ $clr-success: #4caf4f;
   // padding: 1rem 6rems !important;
   height: 46px;
   text-align: center;
-  width: min(40%, 300px);
+  width: min(60%, 300px);
   background-color: $clr-primary;
   display: flex;
   gap: $space-xs;

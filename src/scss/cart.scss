@@ -516,7 +516,7 @@ h2 {
   padding: 1.5rem 1.4rem;
   border-radius: 4px;
   background-color: $bg-light;
-  width: min(80%, 400px);
+  width: min(80%, 400px) !important;
   margin-inline: auto;
   position: absolute;
 
@@ -536,6 +536,10 @@ h2 {
 
     > * {
       flex: 1;
+    }
+
+    > :first-child {
+      color: black;
     }
 
     button {
