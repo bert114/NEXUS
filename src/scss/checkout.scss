@@ -235,6 +235,7 @@ button.disable {
   margin-top: $space-xl;
   gap: $space-md;
   margin: $space-xxl auto;
+  text-align: initial;
 
   * {
     width: initial;
@@ -586,6 +587,7 @@ $clr-success: #4caf4f;
 }
 
 .payment {
+  text-align: initial !important;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -725,6 +727,7 @@ $clr-success: #4caf4f;
 }
 
 .confirm-order {
+  text-align: initial;
   position: fixed;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.169);
