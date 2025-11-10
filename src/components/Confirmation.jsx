@@ -1,7 +1,6 @@
 import { Toast } from "bootstrap/dist/js/bootstrap.bundle";
 import React, { useState } from "react";
 import { colors, handleToast, test } from "../helper/util";
-import { trusted } from "mongoose";
 
 function Confirmation({
   gadget,
