@@ -26,7 +26,7 @@ import DeleteComponent from "../components/DeleteComponent";
 import { useEffect } from "react";
 
 function CheckoutPage1() {
-  const [step, setStep] = useState(1);
+  const [step, setStep] = useState(2);
   const [carts, setCarts] = useState(
     JSON.parse(localStorage.getItem("cartExplore")) || []
   );
