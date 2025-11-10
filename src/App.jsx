@@ -1,4 +1,4 @@
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Explore from "./pages/Explore";
 import Navigation from "./components/Navigation";
@@ -10,7 +10,7 @@ import CheckoutPage1 from "./pages/CheckoutPage1";
 function App() {
   return (
     <>
-      <BrowserRouter basename="/NEXUS">
+      <HashRouter>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/explore" element={<Explore />} />
@@ -18,7 +18,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<CheckoutPage1 />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
