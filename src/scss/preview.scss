@@ -261,8 +261,7 @@
   }
 
   .confirm-wrapper {
-    max-width: var(--modal-size);
-    width: 70%;
+    width: min(70%, 400px);
     background-color: $bg;
     padding: var(--card-padding);
   }

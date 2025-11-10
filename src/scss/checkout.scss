@@ -443,7 +443,6 @@ button.disable {
     height: initial !important;
     flex-direction: column;
     // width: 86%;
-    padding-bottom: 200vh;
 
     .progress {
       position: sticky;
@@ -783,7 +782,7 @@ $clr-success: #4caf4f;
 
   .receipt {
     background-color: $bg-light;
-    width: min(70%, 360px);
+    width: min(70%, 320px) !important;
     border-radius: 4px;
 
     > * {
