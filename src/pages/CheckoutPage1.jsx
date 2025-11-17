@@ -30,10 +30,12 @@ function CheckoutPage1() {
   const [carts, setCarts] = useState(
     JSON.parse(localStorage.getItem("cartExplore")) || []
   );
+
   const [confirm, setConfirm] = useState(null);
   const [user, setUser] = useState(
     JSON.parse(localStorage.getItem("userCheckout")) || {}
   );
+
   const [payment, setPayment] = useState({});
 
   const [modalMessage, setModalMessage] = useState({});

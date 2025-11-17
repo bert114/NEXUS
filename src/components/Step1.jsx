@@ -175,7 +175,8 @@ function Step1({ setStep }) {
           <li>
             <label>Zip Code</label>
             <div className="box">
-              <input type="text" />
+              <input type="number" inputMode="numeric" minLength={6} />
+
               <FontAwesomeIcon icon={faCode} />
             </div>
           </li>

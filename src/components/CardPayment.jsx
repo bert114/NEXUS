@@ -41,7 +41,8 @@ function CardPayment({ setStep, setModalMessage, setPayment }) {
               </div>
               <div className="input-box">
                 <input
-                  type="text"
+                  type="number"
+                  inputMode="numeric"
                   placeholder="1234 5678 9101"
                   onChange={(e) => handleChange(e)}
                   data-name="card-number"
