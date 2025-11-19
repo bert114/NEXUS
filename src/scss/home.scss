@@ -98,10 +98,15 @@ header:has(.nav-container) {
   }
 }
 
+h2 {
+  font-weight: 700 !important;
+}
+
 .nav-container {
   display: flex;
   align-items: center;
   width: 90%;
+  max-width: 1200px;
   margin-inline: auto;
   font-size: 16px;
 
@@ -493,10 +498,11 @@ main {
   place-items: center;
   margin-bottom: $space-xxxll !important;
   font-size: 16px;
-  min-height: 40vh !important;
+  min-height: 20rem !important;
 
   h1 {
     margin-bottom: $space-xs;
+    font-weight: 900;
   }
 
   p {
@@ -518,8 +524,10 @@ main {
   }
 
   .img-container {
+    margin-top: -1rem;
     img {
-      width: 100%;
+      width: 90%;
+      margin-inline: auto;
     }
   }
 
@@ -557,17 +565,20 @@ main {
   //width: min(90%, 1024px);
 }
 
+body {
+  overflow-x: hidden;
+}
+
 @media (min-width: 620px) {
   .hero {
     position: relative;
     align-items: center;
     display: flex;
-    overflow-x: hidden;
     width: 94%;
     margin-inline: auto;
     font-size: 14px;
     margin-top: $space-xxxl;
-    min-height: 70vh !important;
+    min-height: 20rem !important;
 
     h1 {
       line-height: 1.2;
@@ -579,7 +590,6 @@ main {
       gap: 0;
     }
 
-    overflow-y: hidden;
     .hero-content {
       text-align: initial;
       z-index: 2;
@@ -607,7 +617,7 @@ main {
     }
 
     .hero-visual {
-      width: 90%;
+      width: 70%;
       right: -8rem;
     }
   }
@@ -618,11 +628,13 @@ main {
     font-size: 16px;
     width: 90%;
     max-width: 1200px;
+    min-height: 25rem !important;
 
     h1 {
       line-height: 1;
       margin-bottom: $space-sm;
-      max-width: 460px;
+      max-width: 620px;
+      font-size: 56px !important;
     }
 
     p {
@@ -631,8 +643,8 @@ main {
     }
 
     .hero-visual {
-      width: 75%;
-      right: -8rem;
+      width: 60%;
+      margin-right: 4rem;
     }
   }
 }
