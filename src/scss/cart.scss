@@ -74,6 +74,7 @@ cart-container {
 
 .cart:has(.cart-container) {
   width: 90%;
+  max-width: 1200px;
   margin-inline: auto;
   margin-top: $space-xxxl;
   color: $text300;
